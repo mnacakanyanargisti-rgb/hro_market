@@ -30,6 +30,8 @@ PHOTOS = {
     "sprite": ("1628210473497-92b600c4007b", "https://unsplash.com/photos/sprite-plastic-bottle-beside-orange-soda-can-8ijrazWfchQ"),
 }
 COMMONS_PHOTOS = {
+    "coke-zero": ("https://commons.wikimedia.org/wiki/Special:FilePath/CocaColaZero.jpg?width=800", "https://commons.wikimedia.org/wiki/File:CocaColaZero.jpg", "Public domain"),
+    "kitkat": ("https://commons.wikimedia.org/wiki/Special:FilePath/KitKat%2C_wafer_chocolate.jpg?width=800", "https://commons.wikimedia.org/wiki/File:KitKat,_wafer_chocolate.jpg", "CC0 1.0"),
     "lavash": ("https://commons.wikimedia.org/wiki/Special:FilePath/Lavash_arm%C3%A9nien.jpg?width=800", "https://commons.wikimedia.org/wiki/File:Lavash_arm%C3%A9nien.jpg", "CC0 1.0"),
 }
 
