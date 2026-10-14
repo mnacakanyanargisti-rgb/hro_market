@@ -1,0 +1,67 @@
+name: Restore Hro Market images
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/restore-images.yml"
+permissions:
+  contents: write
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download the original image assets
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import pathlib, re, time, urllib.request, concurrent.futures
+          bundle = pathlib.Path('bundle.js').read_text('utf-8')
+          names = sorted(set(re.findall(r'assets/([A-Za-z0-9_.-]+\.(?:jpg|png))', bundle)))
+          base = 'https://customer-assets-7cd3h4nn.emergentagent.net/job_0badcd2f-ed39-4ccb-93b7-bcb31c3d9c5c/artifacts/'
+          custom = {'046b175ac0a4125c_image.png', '8262df9deb1869f4_image.png'}
+          out = pathlib.Path('assets')
+          out.mkdir(exist_ok=True)
+          def fetch(name):
+              dest = out / name
+              if dest.is_file() and dest.stat().st_size > 1000:
+                  return (name, True, 'already present')
+              if name in custom:
+                  url = base + name
+              else:
+                  fmt = 'png' if name.endswith('.png') else 'jpg'
+                  url = 'https://images.unsplash.com/' + name.rsplit('.', 1)[0] + '?fit=crop&w=900&q=85&fm=' + fmt
+              for attempt in range(4):
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0 (HroMarket asset restoration)', 'Accept':'image/*'})
+                      with urllib.request.urlopen(req, timeout=45) as resp:
+                          data = resp.read()
+                      if len(data) < 1000 or not (data.startswith(b'\xff\xd8\xff') or data.startswith(b'\x89PNG') or data.startswith(b'RIFF')):
+                          raise ValueError('not a valid image response')
+                      dest.write_bytes(data)
+                      return (name, True, str(len(data)) + ' bytes')
+                  except Exception as exc:
+                      reason = str(exc)
+                      time.sleep(attempt + 1)
+              return (name, False, reason)
+          print('Looking for', len(names), 'images referenced by bundle.js', flush=True)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+              outcomes = list(pool.map(fetch, names))
+          for name, ok, detail in outcomes:
+              print(('OK ' if ok else 'FAILED ') + name + ': ' + detail)
+          print('Downloaded', sum(ok for _, ok, _ in outcomes), 'of', len(names), flush=True)
+          if not any(ok for _, ok, _ in outcomes):
+              raise SystemExit('No images could be downloaded')
+          PY
+      - name: Save images to GitHub
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          if ! git diff --cached --quiet; then
+            git commit -m "Restore original Hro Market images"
+            git push
+          else
+            echo "All images are already saved."
+          fi
