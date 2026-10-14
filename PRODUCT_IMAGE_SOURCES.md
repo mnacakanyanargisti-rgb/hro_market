@@ -17,5 +17,6 @@ Exact package photos should be replaced with verified images supplied by the sto
 | flour | https://unsplash.com/photos/a-bowl-of-flour-sitting-on-a-counter-ZfRsumYbvDM | Unsplash License |
 | salt | https://unsplash.com/photos/a-salt-shaker-sitting-on-top-of-a-table-i3wFM-9MvAs | Unsplash License |
 | sugar | https://unsplash.com/photos/a-glass-jar-filled-with-white-granular-sugar-AQv1UhsnkqE | Unsplash License |
+| kitkat | https://commons.wikimedia.org/wiki/File:KitKat,_wafer_chocolate.jpg | CC0 1.0 |
 | sprite | https://unsplash.com/photos/sprite-plastic-bottle-beside-orange-soda-can-8ijrazWfchQ | Unsplash License |
 | redbull | https://unsplash.com/photos/red-bull-energy-drink-can-UIwnggHrTnI | Unsplash License |

@@ -62,10 +62,10 @@ icecream,Grand Candy Պաղպաղակ,existing relevant photo,assets/photo-15638
 snickers,Snickers (50.5 գ),labelled illustration,product-images/snickers.svg,
 bounty,Bounty (57 գ),labelled illustration,product-images/bounty.svg,
 mars,Mars (51 գ),labelled illustration,product-images/mars.svg,
-kitkat,KitKat (41.5 գ),labelled illustration,product-images/kitkat.svg,
+kitkat,KitKat (41.5 գ),licensed photo,product-images/kitkat.jpg,"https://commons.wikimedia.org/wiki/File:KitKat,_wafer_chocolate.jpg"
 kinder,Kinder Chocolate (50 գ),labelled illustration,product-images/kinder.svg,
 coke,Coca-Cola Classic (1.5 լ),existing relevant photo,assets/photo-1554866585-cd94860890b7.jpg,
-coke-zero,Coca-Cola Zero (1.5 լ),labelled illustration,product-images/coke-zero.svg,
+coke-zero,Coca-Cola Zero (1.5 լ),illustration (photo unavailable),product-images/coke-zero.svg,https://commons.wikimedia.org/wiki/File:CocaColaZero.jpg
 pepsi,Pepsi (1.5 լ),existing relevant photo,assets/photo-1629203851122-3726ecdf080e.jpg,
 sprite,Sprite (1.5 լ),licensed photo,product-images/sprite.jpg,https://unsplash.com/photos/sprite-plastic-bottle-beside-orange-soda-can-8ijrazWfchQ
 fanta,Fanta Orange (1.5 լ),existing relevant photo,assets/photo-1624517452488-04869289c4ca.jpg,

@@ -2966,7 +2966,7 @@ const productImages = {
   "snickers": "product-images/snickers.svg",
   "bounty": "product-images/bounty.svg",
   "mars": "product-images/mars.svg",
-  "kitkat": "product-images/kitkat.svg",
+  "kitkat": "product-images/kitkat.jpg",
   "kinder": "product-images/kinder.svg",
   "coke": "assets/photo-1554866585-cd94860890b7.jpg",
   "coke-zero": "product-images/coke-zero.svg",
