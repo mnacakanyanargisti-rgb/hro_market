@@ -1,0 +1,29 @@
+name: Correct Hro Market product photographs
+on:
+  push:
+    paths:
+      - scripts/fix_product_images.py
+      - .github/workflows/fix-product-images.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: hro-product-images
+  cancel-in-progress: false
+jobs:
+  fix-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Audit product images and download matching licensed photographs
+        run: python3 scripts/fix_product_images.py
+      - name: Commit corrected product imagery
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bundle.js product-images PRODUCT_IMAGE_AUDIT.csv PRODUCT_IMAGE_SOURCES.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Fix matching images for all Hro Market products"
+            git push
+          fi
