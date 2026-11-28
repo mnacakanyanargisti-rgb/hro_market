@@ -1,0 +1,706 @@
+[
+  {
+    "id": "banana",
+    "name": "Բանան (1 կգ)",
+    "category": "produce",
+    "price": 750,
+    "emoji": "🍌",
+    "image": "assets/photo-1571771894821-ce9b6c11b08e.jpg"
+  },
+  {
+    "id": "red-apple",
+    "name": "Խնձոր կարմիր (1 կգ)",
+    "category": "produce",
+    "price": null,
+    "emoji": "🍎",
+    "image": "assets/photo-1560806887-1e4cd0b6cbd6.jpg"
+  },
+  {
+    "id": "green-apple",
+    "name": "Խնձոր կանաչ Granny Smith (1 կգ)",
+    "category": "produce",
+    "price": null,
+    "emoji": "🍏",
+    "image": "product-images/green-apple.jpg"
+  },
+  {
+    "id": "orange",
+    "name": "Նարինջ (1 կգ)",
+    "category": "produce",
+    "price": null,
+    "emoji": "🍊",
+    "image": "assets/photo-1547514701-42782101795e.jpg"
+  },
+  {
+    "id": "mandarin",
+    "name": "Մանդարին (1 կգ)",
+    "category": "produce",
+    "price": null,
+    "emoji": "🍊",
+    "image": "assets/photo-1582979512210-99b6a53386f9.jpg"
+  },
+  {
+    "id": "lemon",
+    "name": "Կիտրոն (1 կգ)",
+    "category": "produce",
+    "price": 250,
+    "emoji": "🍋",
+    "image": "assets/photo-1590502593747-42a996133562.jpg"
+  },
+  {
+    "id": "grapes",
+    "name": "Խաղող (1 կգ)",
+    "category": "produce",
+    "price": 400,
+    "emoji": "🍇",
+    "image": "assets/photo-1537640538966-79f369143f8f.jpg"
+  },
+  {
+    "id": "peach",
+    "name": "Դեղձ (1 կգ)",
+    "category": "produce",
+    "price": 350,
+    "emoji": "🍑",
+    "image": "product-images/peach.jpg"
+  },
+  {
+    "id": "pear",
+    "name": "Տանձ (1 կգ)",
+    "category": "produce",
+    "price": 600,
+    "emoji": "🍐",
+    "image": "assets/photo-1514756331096-242fdeb70d4a.jpg"
+  },
+  {
+    "id": "pomegranate",
+    "name": "Նուռ (1 կգ)",
+    "category": "produce",
+    "price": 1000,
+    "emoji": "❤️",
+    "image": "assets/photo-1541344999736-83eca272f6fc.jpg"
+  },
+  {
+    "id": "watermelon",
+    "name": "Ձմերուկ (1 կգ)",
+    "category": "produce",
+    "price": 150,
+    "emoji": "🍉",
+    "image": "assets/photo-1563114773-84221bd62daa.jpg"
+  },
+  {
+    "id": "melon",
+    "name": "Սեխ (1 կգ)",
+    "category": "produce",
+    "price": 250,
+    "emoji": "🍈",
+    "image": "assets/photo-1571575173700-afb9492e6a50.jpg"
+  },
+  {
+    "id": "potato",
+    "name": "Կարտոֆիլ (1 կգ)",
+    "category": "produce",
+    "price": 250,
+    "emoji": "🥔",
+    "image": "assets/photo-1518977676601-b53f82aba655.jpg"
+  },
+  {
+    "id": "onion",
+    "name": "Սոխ գլուխ (1 կգ)",
+    "category": "produce",
+    "price": "150–250",
+    "emoji": "🧅",
+    "image": "assets/photo-1508747703725-719777637510.jpg"
+  },
+  {
+    "id": "carrot",
+    "name": "Գազար (1 կգ)",
+    "category": "produce",
+    "price": 400,
+    "emoji": "🥕",
+    "image": "assets/photo-1445282768818-728615cc910a.jpg"
+  },
+  {
+    "id": "tomato",
+    "name": "Լոլիկ (1 կգ)",
+    "category": "produce",
+    "price": 400,
+    "emoji": "🍅",
+    "image": "assets/photo-1561136594-7f68413baa99.jpg"
+  },
+  {
+    "id": "cucumber",
+    "name": "Վարունգ (1 կգ)",
+    "category": "produce",
+    "price": 250,
+    "emoji": "🥒",
+    "image": "assets/photo-1604977042946-1eecc30f269e.jpg"
+  },
+  {
+    "id": "pepper",
+    "name": "Բուլղարական պղպեղ (1 կգ)",
+    "category": "produce",
+    "price": 350,
+    "emoji": "🫑",
+    "image": "assets/photo-1563565375-f3fdfdbefa83.jpg"
+  },
+  {
+    "id": "eggplant",
+    "name": "Սմբուկ (1 կգ)",
+    "category": "produce",
+    "price": 300,
+    "emoji": "🍆",
+    "image": "product-images/eggplant.jpg"
+  },
+  {
+    "id": "cabbage",
+    "name": "Կաղամբ (1 կգ)",
+    "category": "produce",
+    "price": 250,
+    "emoji": "🥬",
+    "image": "product-images/cabbage.jpg"
+  },
+  {
+    "id": "broccoli",
+    "name": "Բրոկոլի (1 կգ)",
+    "category": "produce",
+    "price": null,
+    "emoji": "🥦",
+    "image": "assets/photo-1459411621453-7b03977f4bfc.jpg"
+  },
+  {
+    "id": "garlic",
+    "name": "Սխտոր (1 կգ)",
+    "category": "produce",
+    "price": 1800,
+    "emoji": "🧄",
+    "image": "assets/photo-1540148426945-6cf22a6b2383.jpg"
+  },
+  {
+    "id": "mushroom",
+    "name": "Շամպինիոն սունկ (1 կգ)",
+    "category": "produce",
+    "price": null,
+    "emoji": "🍄",
+    "image": "assets/photo-1504545102780-26774c1bb073.png"
+  },
+  {
+    "id": "dill",
+    "name": "Թարմ սամիթ (1 կապ)",
+    "category": "produce",
+    "price": 150,
+    "emoji": "🌿",
+    "image": "product-images/dill.jpg"
+  },
+  {
+    "id": "parsley",
+    "name": "Թարմ մաղադանոս (1 կապ)",
+    "category": "produce",
+    "price": null,
+    "emoji": "🌿",
+    "image": "product-images/parsley.jpg"
+  },
+  {
+    "id": "milk-yeremyan",
+    "name": "Կաթ Yeremyan Products 3.2% (750 մլ)",
+    "category": "dairy",
+    "price": null,
+    "emoji": "🥛",
+    "image": "assets/photo-1550583724-b2692b85b150.jpg"
+  },
+  {
+    "id": "milk",
+    "name": "Կաթ Մարիաննա / Աշտարակ (1 լ)",
+    "category": "dairy",
+    "price": null,
+    "emoji": "🥛",
+    "image": "assets/photo-1550583724-b2692b85b150.jpg"
+  },
+  {
+    "id": "matzoon",
+    "name": "Մածուն Մարիաննա / Աշտարակ 3.2% (450 գ)",
+    "category": "dairy",
+    "price": null,
+    "emoji": "🥛",
+    "image": "assets/photo-1571212515416-fef01fc43637.jpg"
+  },
+  {
+    "id": "sour-cream",
+    "name": "Թթվասեր Մարիաննա 18% (200 գ)",
+    "category": "dairy",
+    "price": 350,
+    "emoji": "🥛",
+    "image": "assets/photo-1571212515416-fef01fc43637.jpg"
+  },
+  {
+    "id": "butter",
+    "name": "Կարագ President / Anchor (200 գ)",
+    "category": "dairy",
+    "price": 1200,
+    "emoji": "🧈",
+    "image": "assets/photo-1589985270826-4b7bb135bc9d.jpg"
+  },
+  {
+    "id": "lori-cheese",
+    "name": "Պանիր Լոռի (1 կգ)",
+    "category": "dairy",
+    "price": 3800,
+    "emoji": "🧀",
+    "image": "assets/photo-1486297678162-eb2a19b0a32d.jpg"
+  },
+  {
+    "id": "chanakh",
+    "name": "Պանիր Չանախ (1 կգ)",
+    "category": "dairy",
+    "price": 2700,
+    "emoji": "🧀",
+    "image": "assets/photo-1628088062854-d1870b4553da.jpg"
+  },
+  {
+    "id": "mozzarella",
+    "name": "Պանիր Մոցարելլա (500 գ)",
+    "category": "dairy",
+    "price": null,
+    "emoji": "🧀",
+    "image": "assets/photo-1628088062854-d1870b4553da.jpg"
+  },
+  {
+    "id": "eggs",
+    "name": "Ձու (10 հատանոց տուփ)",
+    "category": "dairy",
+    "price": 850,
+    "emoji": "🥚",
+    "image": "assets/photo-1582722872445-44dc5f7e3c8f.jpg"
+  },
+  {
+    "id": "kefir",
+    "name": "Կեֆիր Մարիաննա (500 մլ)",
+    "category": "dairy",
+    "price": null,
+    "emoji": "🥛",
+    "image": "assets/photo-1576186726115-4d51596775d1.jpg"
+  },
+  {
+    "id": "bread",
+    "name": "Հաց Մատնաքաշ / Բոքոն (1 հատ)",
+    "category": "dairy",
+    "price": 200,
+    "emoji": "🍞",
+    "image": "assets/photo-1509440159596-0249088772ff.jpg"
+  },
+  {
+    "id": "lavash",
+    "name": "Լավաշ (1 տուփ)",
+    "category": "dairy",
+    "price": 500,
+    "emoji": "🫓",
+    "image": "product-images/lavash.jpg"
+  },
+  {
+    "id": "rice",
+    "name": "Բրինձ Makfa / Արմենիա (1 կգ)",
+    "category": "dairy",
+    "price": null,
+    "emoji": "🍚",
+    "image": "assets/photo-1704916029542-da6fa7bc34e7.jpg"
+  },
+  {
+    "id": "pasta",
+    "name": "Մակարոն / Սպագետի Makfa / Barilla (500 գ)",
+    "category": "dairy",
+    "price": null,
+    "emoji": "🍝",
+    "image": "assets/photo-1633613516901-028f444c0f75.jpg"
+  },
+  {
+    "id": "flour",
+    "name": "Ալյուր Բաղրամյան (1 կգ)",
+    "category": "dairy",
+    "price": 350,
+    "emoji": "🌾",
+    "image": "product-images/flour.jpg"
+  },
+  {
+    "id": "oil",
+    "name": "Բուսական յուղ Oleina / Zlato (1 լ)",
+    "category": "dairy",
+    "price": null,
+    "emoji": "🫗",
+    "image": "product-images/oil.svg"
+  },
+  {
+    "id": "salt",
+    "name": "Աղ Ավան (1 կգ)",
+    "category": "dairy",
+    "price": null,
+    "emoji": "🧂",
+    "image": "product-images/salt.jpg"
+  },
+  {
+    "id": "sugar",
+    "name": "Շաքարավազ (1 կգ)",
+    "category": "dairy",
+    "price": 400,
+    "emoji": "🍬",
+    "image": "product-images/sugar.jpg"
+  },
+  {
+    "id": "chicken",
+    "name": "Թարմ հավի ֆիլե (1 կգ)",
+    "category": "dairy",
+    "price": 2100,
+    "emoji": "🐔",
+    "image": "assets/photo-1604503468506-a8da13d82791.jpg"
+  },
+  {
+    "id": "basturma",
+    "name": "Բաստուրմա / Սուջուխ (100 գ / 1 կգ)",
+    "category": "dairy",
+    "price": null,
+    "emoji": "🥩",
+    "image": "product-images/basturma.svg"
+  },
+  {
+    "id": "grand-milk",
+    "name": "Grand Candy կաթնային շոկոլադ Classic (90 գ)",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍫",
+    "image": "product-images/grand-milk.svg"
+  },
+  {
+    "id": "grand-dark",
+    "name": "Grand Candy մուգ շոկոլադ Classic (90 գ)",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍫",
+    "image": "product-images/grand-dark.svg"
+  },
+  {
+    "id": "grand-pistachio",
+    "name": "Grand Candy շոկոլադ պիստակով (90 գ)",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍫",
+    "image": "product-images/grand-pistachio.svg"
+  },
+  {
+    "id": "krispy",
+    "name": "Grand Candy Krispy շոկոլադե սալիկ",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍫",
+    "image": "product-images/krispy.svg"
+  },
+  {
+    "id": "wafer",
+    "name": "Grand Candy վաֆլի (1 հատ)",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍫",
+    "image": "product-images/wafer.svg"
+  },
+  {
+    "id": "rolls",
+    "name": "Grand Candy Wafer Rolls (1 տուփ)",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍫",
+    "image": "product-images/rolls.svg"
+  },
+  {
+    "id": "rollo",
+    "name": "Grand Candy Rollo կոնֆետներ (1 կգ)",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍬",
+    "image": "product-images/rollo.svg"
+  },
+  {
+    "id": "truffle",
+    "name": "Grand Candy Truffle կոնֆետներ (1 կգ)",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍬",
+    "image": "product-images/truffle.svg"
+  },
+  {
+    "id": "parvana",
+    "name": "Grand Candy Parvana շոկոլադ (190 գ)",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍫",
+    "image": "product-images/parvana.svg"
+  },
+  {
+    "id": "golden",
+    "name": "Grand Candy Golden Bar",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍫",
+    "image": "product-images/golden.svg"
+  },
+  {
+    "id": "rahat",
+    "name": "Grand Candy Ռահատ Լոքում (250 գ)",
+    "category": "sweets",
+    "price": 650,
+    "emoji": "🍬",
+    "image": "product-images/rahat.svg"
+  },
+  {
+    "id": "kolos",
+    "name": "Grand Candy Կոլոս թխվածքաբլիթ (110 գ)",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍪",
+    "image": "product-images/kolos.svg"
+  },
+  {
+    "id": "croissant",
+    "name": "Grand Candy Կրուասան",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🥐",
+    "image": "assets/photo-1555507036-ab1f4038808a.jpg"
+  },
+  {
+    "id": "donut",
+    "name": "Grand Candy Դոնաթ",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍩",
+    "image": "assets/photo-1551024506-0bccd828d307.jpg"
+  },
+  {
+    "id": "icecream",
+    "name": "Grand Candy Պաղպաղակ",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍦",
+    "image": "assets/photo-1563805042-7684c019e1cb.jpg"
+  },
+  {
+    "id": "snickers",
+    "name": "Snickers (50.5 գ)",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍫",
+    "image": "product-images/snickers.svg"
+  },
+  {
+    "id": "bounty",
+    "name": "Bounty (57 գ)",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍫",
+    "image": "product-images/bounty.svg"
+  },
+  {
+    "id": "mars",
+    "name": "Mars (51 գ)",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍫",
+    "image": "product-images/mars.svg"
+  },
+  {
+    "id": "kitkat",
+    "name": "KitKat (41.5 գ)",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍫",
+    "image": "product-images/kitkat.jpg"
+  },
+  {
+    "id": "kinder",
+    "name": "Kinder Chocolate (50 գ)",
+    "category": "sweets",
+    "price": null,
+    "emoji": "🍫",
+    "image": "product-images/kinder.svg"
+  },
+  {
+    "id": "coke",
+    "name": "Coca-Cola Classic (1.5 լ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "🥤",
+    "image": "assets/photo-1554866585-cd94860890b7.jpg"
+  },
+  {
+    "id": "coke-zero",
+    "name": "Coca-Cola Zero (1.5 լ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "🥤",
+    "image": "product-images/coke-zero.svg"
+  },
+  {
+    "id": "pepsi",
+    "name": "Pepsi (1.5 լ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "🥤",
+    "image": "assets/photo-1629203851122-3726ecdf080e.jpg"
+  },
+  {
+    "id": "sprite",
+    "name": "Sprite (1.5 լ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "🥤",
+    "image": "product-images/sprite.jpg"
+  },
+  {
+    "id": "fanta",
+    "name": "Fanta Orange (1.5 լ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "🥤",
+    "image": "assets/photo-1624517452488-04869289c4ca.jpg"
+  },
+  {
+    "id": "jermuk",
+    "name": "Ջերմուկ հանքային ջուր (1 լ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "💧",
+    "image": "product-images/jermuk.svg"
+  },
+  {
+    "id": "byuregh",
+    "name": "Բյուրեղ աղբյուրի ջուր (1.5 լ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "💧",
+    "image": "assets/photo-1548839140-29a749e1cf4d.jpg"
+  },
+  {
+    "id": "noy",
+    "name": "Նոյ աղբյուրի ջուր (1.5 լ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "💧",
+    "image": "product-images/noy.svg"
+  },
+  {
+    "id": "gift",
+    "name": "Gift ջուր (500 մլ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "💧",
+    "image": "assets/photo-1523362628745-0c100150b504.jpg"
+  },
+  {
+    "id": "noyan",
+    "name": "Նոյան բնական հյութ (1 լ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "🧃",
+    "image": "assets/photo-1600271886742-f049cd451bba.jpg"
+  },
+  {
+    "id": "sandora",
+    "name": "Sandora / Доброе հյութ (1 լ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "🧃",
+    "image": "product-images/sandora.svg"
+  },
+  {
+    "id": "rauch",
+    "name": "Rauch Happy Day նարնջի հյութ (1 լ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "🧃",
+    "image": "product-images/rauch.svg"
+  },
+  {
+    "id": "redbull",
+    "name": "Red Bull (250 մլ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "⚡",
+    "image": "product-images/redbull.jpg"
+  },
+  {
+    "id": "nescafe",
+    "name": "Nescafé Classic (100 գ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "☕",
+    "image": "assets/photo-1512568400610-62da28bc8a13.jpg"
+  },
+  {
+    "id": "greenfield",
+    "name": "Greenfield թեյ (25 փաթեթ)",
+    "category": "drinks",
+    "price": null,
+    "emoji": "🍵",
+    "image": "assets/photo-1594631252845-29fc4cc8cde9.jpg"
+  },
+  {
+    "id": "ariel-small",
+    "name": "Ariel լվացքի փոշի (450 գ)",
+    "category": "home",
+    "price": null,
+    "emoji": "🧺",
+    "image": "product-images/ariel-small.svg"
+  },
+  {
+    "id": "ariel-large",
+    "name": "Ariel լվացքի փոշի (1.5 կգ)",
+    "category": "home",
+    "price": null,
+    "emoji": "🧺",
+    "image": "product-images/ariel-large.svg"
+  },
+  {
+    "id": "fairy",
+    "name": "Fairy սպասք լվանալու հեղուկ (500 մլ)",
+    "category": "home",
+    "price": null,
+    "emoji": "🧴",
+    "image": "product-images/fairy.svg"
+  },
+  {
+    "id": "domestos",
+    "name": "Domestos մաքրող հեղուկ (1 լ)",
+    "category": "home",
+    "price": null,
+    "emoji": "🧴",
+    "image": "product-images/domestos.svg"
+  },
+  {
+    "id": "toilet-paper",
+    "name": "Selpak / Papia զուգարանի թուղթ (4 հատ)",
+    "category": "home",
+    "price": null,
+    "emoji": "🧻",
+    "image": "assets/photo-1584556812952-905ffd0c611a.jpg"
+  },
+  {
+    "id": "paper-towel",
+    "name": "Selpak / Zewa թղթե սրբիչ (2 ռոլոն)",
+    "category": "home",
+    "price": null,
+    "emoji": "🧻",
+    "image": "product-images/paper-towel.svg"
+  },
+  {
+    "id": "sponge",
+    "name": "Սպասքի սպունգ (1 տուփ)",
+    "category": "home",
+    "price": null,
+    "emoji": "🧽",
+    "image": "product-images/sponge.svg"
+  },
+  {
+    "id": "trash-bags",
+    "name": "Աղբի տոպրակներ (1 տուփ)",
+    "category": "home",
+    "price": null,
+    "emoji": "🗑️",
+    "image": "product-images/trash-bags.svg"
+  }
+]
